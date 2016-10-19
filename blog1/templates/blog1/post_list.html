@@ -6,29 +6,14 @@
         <div>
 			<h1><a href="">Django Girls Blog</a></h1>
 		</div>
-        
-
-        <div>
-            <p>published: 14.06.2014, 12:14</p>
-            <h2><a href="">My first post</a></h2>
-            <p>Aenean eu leo quam. 
-			<em>emphasizes your text</em>
-			<strong>strongly emphasizes your text</strong> 
-			Donec id elit non mi porta gravida at eget metus. <br /> Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-			<a href="https://www.youtube.com/watch?v=qo7xSdzzJSU">The best of John Lennon</a>
-        <ul><li>first item</li><li>second item</li></ul>
+	
+		{% for post in posts %}
+		<div>
+			<p>published: {{ post.published_date }}</p>
+			<h1><a href="">{{ post.title }}</a></h1>
+			<p>{{ post.text|linebreaksbr }}</p>
 		</div>
-        <div style="background-color:gray;color:yellow;padding:10px;">
-            <p>published: 14.06.2014, 12:14</p>
-            <h2><a href="">My second post</a></h2>
-            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.</p>
-        </div>
-		
-	<p>first p</p>
-	<p>second p</p>
-	<div>first div</div>
-	<div>second div</div>
-	before br </br> after br </br> </br> after 2 br
-    </body>
-
+		{% endfor %}
+	
+    </body>	
 </html>
