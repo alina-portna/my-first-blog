@@ -1,0 +1,155 @@
+* {
+border: 3px solid rgba(0, 0, 0, 0.5);
+padding: 0px;
+margin: 0px;
+}
+
+#some {
+	position: relative;
+	top: 500px;
+	left: 370px;
+}
+
+.im {
+    display: inline-block;
+    margin: 0px 0px 10px 20px;
+    text-align: center;
+    width: 45%;
+}
+
+.im img {
+	width: 100%;
+}
+
+#main {
+	height: 600px;
+	width: 100%;
+	padding: 100px 200px;
+	font-size: 36px;
+	background: url(https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg) no-repeat top center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#header {
+  height: 400px;
+  width: 100%;
+  background: -webkit-linear-gradient(#666CCC, #BC1324);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+#that {
+	float: left;
+	position: fixed;
+	clear: left;
+}
+
+table {
+  height: 100px;
+  left: 10%;
+  margin: 20px auto;
+  overflow-y: hidden;
+  position: static;
+  width: 50%;
+}
+
+thead, td {
+  background: #88CCF1;
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 10;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #333;
+  margin-bottom: 5px;
+
+
+th, td {
+  font-family: 'Lato', sans-serif;
+  font-weight: 0;
+  padding: 20px;
+  text-align: right;
+  width: 33.3333%;
+}
+
+
+.page-header {
+    background-color: #db3d6c;
+    margin-top: 0;
+    padding: 20px 20px 20px 50px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+h1 {
+	margin: 0px;
+	border: 1px solid black;
+    height: 200px;
+    width: 300px;
+	padding: 30px;
+}
+
+p {
+	position: relative;
+	top: 50px;
+	left: 15px;
+	color: white;
+}
+img {
+	padding: 2px;
+	margin: 0px
+}
+/*
+#girl {
+margin-bottom: 15px;
+}
+
+#jolan {
+margin-bottom: 15px;
+}
+*/
+.content {
+    margin-left: 40px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+}
+
+.date {
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h1 a, .post h1 a:visited {
+    color: #000000;
+}
