@@ -9,8 +9,21 @@
 	padding: 10px;
 }
 	
-a.title_speech {
+.title {
+	font-family: 'Cabin';
+	font-size: 30px;
+	text-align: left;
+	padding-left: 50px;
+	color: #403c6d;
+	
+} 
+
+.title_speech {
 	font-size: 20px;
+}
+
+#linkcolor {
+	color: #3c79b2;
 }
 
 .btn-main {
@@ -79,14 +92,6 @@ a.title_speech {
 	margin: auto;
 	text-shadow: 0px 2px #fcfdff;
 }
-
-.title {
-	font-family: 'Cabin';
-	font-size: 24px;
-	font-weight: bold;
-	text-align: center;
-	padding: 5px;
-} 
 
 .line {
 	width: 550px;
