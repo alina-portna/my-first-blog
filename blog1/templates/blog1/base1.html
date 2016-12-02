@@ -1,31 +1,21 @@
 {% load staticfiles %}
 <html>
     <head>
-        <title>Feed for the heart&mind
-		</title>
+        <title>Motivational speech</title>
 		<link rel="shortcut icon" href="{% static 'favicon/favicon.ico' %}"/>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="{% static 'css/blog1.css' %}">
-        <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Raleway:400, 600" rel="stylesheet"> 
-    </head>
-    <body>
-    <div class="page-header">
-		<!--{% if user.is_authenticated %}
-			<a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
-		{% endif %} -->
-        <h1><a href="/">Feed for the heart & mind</a></h1>
-    </div>
-
-
-	{% block content %}	
+	</head>
+	<body>
+	{% block content %}
 	{% endblock %}
-
-
+	
 	<div class="comm">  
 	<div id="disqus_thread"></div>
 	<script>
@@ -42,7 +32,6 @@
 	};
 	*/
 
-
 	(function() { // DON'T EDIT BELOW THIS LINE
 	var d = document, s = d.createElement('script');
 	s.src = '//http-malene-pythonanywhere-com.disqus.com/embed.js';
@@ -52,7 +41,7 @@
 	</script>
 	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 	</div>
-	
+		
 	<div class="footer">
 		<ul class="list-unstyled">
 			<li id="contact">
@@ -64,6 +53,6 @@
 			</li>
 		</ul>
 	</div>	
-
+	
 	</body>
 </html>

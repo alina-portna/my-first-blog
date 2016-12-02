@@ -38,3 +38,12 @@ def post_edit(request, pk):
     else:
         form = PostForm(instance=post)
     return render(request, 'blog1/post_edit.html', {'form': form})
+	
+def motivational(request, id):
+    return render(request, 'blog1/motivational%s.html' % id, {})
+	
+def motivation(request):
+    return render(request, 'blog1/motivational.html')
+
+def music(request, id):
+    return render(request, 'blog1/music%s.html' % id, {})
