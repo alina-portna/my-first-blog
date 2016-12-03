@@ -1,7 +1,6 @@
-{% extends 'blog1/base.html' %}
-
-{% block content %}
-<head>
+{% load staticfiles %}
+<html>
+	<head>
         <title>Feed for the heart&mind
 		</title>
 		<link rel="shortcut icon" href="{% static 'favicon/favicon.ico' %}"/>
@@ -243,6 +242,46 @@ AND WIN.. AT ALL COSTS!<br>
 		</div>
 	</div>
 	</div>
+	
+	<div class="comm">  
+	<div id="disqus_thread"></div>
+	<script>
+
+	/**
+	*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+	*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+	/*
+	var disqus_config = function () {
+	this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+
+	this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	};
+	*/
 
 
-{% endblock %}	
+	(function() { // DON'T EDIT BELOW THIS LINE
+	var d = document, s = d.createElement('script');
+	s.src = '//http-malene-pythonanywhere-com.disqus.com/embed.js';
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+	})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	</div>
+	
+	<div class="footer">
+		<ul class="list-unstyled">
+			<li id="contact">
+				contact me
+			</li>
+			<li id="Alina">
+			<a href="https://www.facebook.com/alia.malanka"><img id="fb" src="{% static 'fb.jpg' %}"></a>
+			Alina
+			</li>
+		</ul>
+	</div>	
+	</body>
+</html>
+
+
