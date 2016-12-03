@@ -1,0 +1,1 @@
+STATIC_ROOT = "/home/Malene/my-first-blog/blog1/static"
