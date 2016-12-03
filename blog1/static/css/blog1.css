@@ -34,8 +34,26 @@
     font-weight: 600;
     letter-spacing: 1.3px;
     padding: 2px 8px;
-	text-decoration: none;
 	clear: left;
+}
+
+a.btn-main {
+	text-decoration: none;
+}
+
+.btn-back {
+	font-size: 18px;
+	color: #36093B;
+	background-color: #A6E3E3;
+	font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    padding: 2px 8px;
+	clear: left;
+}
+
+a.btn-back {
+	text-decoration: none;
 }
 
 .block {
