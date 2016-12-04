@@ -8,15 +8,22 @@
 	clear:left;
 	padding: 10px;
 }
-	
+
 .title {
 	font-family: 'Cabin';
 	font-size: 30px;
 	text-align: left;
 	padding-left: 50px;
 	color: #403c6d;
-	
-} 
+}
+
+.link {
+	font-family: 'Cabin';
+	font-size: 24px;
+	text-align: left;
+	padding-left: 50px;
+	color: #403c6d;
+}
 
 .title_speech {
 	font-size: 20px;
@@ -76,7 +83,7 @@ a.btn-back {
 }
 
 .large {
-	margin: 0px;	
+	margin: 0px;
 }
 
 .songs {
@@ -162,7 +169,7 @@ a.btn-back {
 	padding: 10px;
 	margin-bottom: 10px;
 }
-	
+
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #5b306b;
     font-size: 36pt;
