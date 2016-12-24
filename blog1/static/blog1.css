@@ -1,0 +1,298 @@
+/*
+* {
+	border: 3px dotted rgb(20,12,80);
+}
+*/
+
+.link_on_article {
+	font-family: 'Cabin';
+	font-size: 24px;
+	text-align: left;
+	padding-left: 50px;
+	color: #403c6d;
+}
+
+.newparagraph {
+	clear:left;
+	padding: 10px;
+}
+
+.title {
+	font-family: 'Cabin';
+	font-size: 30px;
+	text-align: left;
+	padding-left: 70px;
+	color: #403c6d;
+}
+
+.page-header {
+    background-color: #3D202B;
+	margin-top: 0;
+	margin-bottom: 15px;
+	padding: 30px 0px;
+	background: url("http://fs31.www.ex.ua/get/932574305193/285406494/birds4.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.page-header h1 {
+	font-family: 'Dancing Script';
+	font-weight: bold;
+	margin: auto;
+	text-shadow: 0px 2px #fcfdff;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #5b306b;
+    font-size: 36pt;
+    text-decoration: none;
+	text-align: center;
+}
+
+.block {
+	/*background-color: #dce2e8; */
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 0px;
+}
+
+.video {
+	width: 50%;
+	float: left;
+}
+
+.title_speech {
+	font-size: 20px;
+	width: 90%;
+	margin: 0px auto;
+	padding-top: 10px;
+	padding-bottom: 5px;
+
+}
+
+.title_speech a {
+	font-size: 20px;
+	width: 90%;
+	margin: 0px auto;
+	margin-bottom: 7px;
+}
+
+#title_sp_color {
+	color: #3c79b2;
+}
+
+.intrinsic-container {
+    position: relative;
+	width: 90%;
+	height: 0;
+    padding-bottom: 50.625%;
+	margin: 0px auto;
+    overflow: hidden;	
+}
+
+.container_for_spec_sub{
+	width: 80%;
+	padding-bottom: 40%;
+}
+
+.intrinsic-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.line {
+	width: 90%;
+	background-color: #DEDEDE;
+	margin: 0px auto;
+}
+
+.btn-main {
+	font-size: 18px;
+	color: #fff;
+	background-color: #33afaf;
+	font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    padding: 2px 8px;
+	clear: left;
+}
+
+a.btn-main {
+	text-decoration: none;
+}
+
+.hint {
+	font-size: 16px;
+	color: #DEDEDE;
+}
+
+.subs {
+	height: 250px;
+	width: 90%;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	overflow: auto;
+	font-size: 15px;
+	background-color: #f0eff2;
+	font-family: 'Cabin', sans-serif;
+	padding: 10px;
+	padding-top: 5px;
+}
+
+.subs-hint {
+	height: 250px;
+	width: 90%;
+	margin: 0px auto;
+	overflow: auto;
+	font-size: 15px;
+	background-color: #f0eff2;
+	font-family: 'Cabin', sans-serif;
+	padding: 10px;
+	padding-top: 5px;
+}
+
+.comm {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 0px;
+}
+
+.large {
+	margin: 0px;
+	background-color: black;
+}
+
+.playlist {
+	float: right;
+}
+
+
+.large {
+	margin-top: 0;
+	padding: 0;
+}
+
+.sound {
+	margin: 0px;
+	padding: 0px 150px;
+	background-color: black;
+}
+
+.subs_without_scroll{
+	max-width: 550px;
+	height: 250px;
+	overflow: auto;
+	font-size: 15px;
+	background-color: #f0eff2;
+	font-family: 'Cabin', sans-serif;
+	padding: 10px;
+	padding-top: 5px;
+}
+
+.subs_motivation {
+	width: 100%;
+	height: 450px;
+	overflow: scroll;
+	font-size: 15px;
+	color: #aaa;
+	font-style: bold;
+	background-color: black;
+	font-family: 'Cabin', sans-serif;
+	padding: 5px 10% 25px 10%;
+	overflow-x: hidden;
+}
+
+.btn-back {
+	font-size: 18px;
+	color: 36093B;
+	background-color: #A6E3E3;
+	font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+	float: left;
+    padding: 5px 8px;
+	margin-top: 2px;
+	margin-left: 45px;
+}
+
+a.btn-back {
+	text-decoration: none;
+}
+
+
+.screen {
+	float: left;
+	width: 45%;
+	padding: 10px;
+}
+
+.songs {
+	clear: left;
+	padding: 10px 20px 10px 200px;
+	background: linear-gradient(to right , #ffc6f0, #fffdc6 80%, #fff);
+	height: 90%;
+}
+
+.content {
+    margin-left: 40px;
+}
+
+h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+}
+
+.footer {
+	font-family: Raleway;
+	color: white;
+	font-size: 18px;
+	background-color: #141414;
+	width: 100%;
+	height: 120px;
+	float: right;
+	padding: 20px 50px;
+	margin: 0px;
+}
+
+#fb {
+	margin-top: -6px;
+	margin-right: 5px;
+	width: 25px;
+}
+
+#Alina {
+	position: relative;
+	color: grey;
+}
+
+#contact {
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}
+
+@media (max-width:1023px){
+    .video{
+		width: 100%;
+        float: none;
+    }
+	.subs-hint{
+		height: 50px;
+		width: 90%;
+		overflow: auto;
+		background-color: #fff;
+		}
+	
+}
+
+@media (max-width:414px){
+	.btn-back {
+		width: 100%;
+		margin-left: 0px;
+	}
+	a.btn-back {
+	text-align: center;
+	}
+}
+
+
