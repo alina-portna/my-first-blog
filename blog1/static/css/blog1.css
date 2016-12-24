@@ -89,6 +89,11 @@
     overflow: hidden;	
 }
 
+.container_for_spec_sub{
+	width: 80%;
+	padding-bottom: 40%;
+}
+
 .intrinsic-container iframe {
     position: absolute;
     top: 0;
@@ -154,14 +159,9 @@ a.btn-main {
 	margin-top: 0px;
 }
 
-.centered {
-    padding: 0px 0px;
-    background-color: black;
-	margin: 0px 0px;
-}
-
 .large {
 	margin: 0px;
+	background-color: black;
 }
 
 .playlist {
@@ -192,26 +192,29 @@ a.btn-main {
 }
 
 .subs_motivation {
-	max-width: 100%;
-	height: 600px;
+	width: 100%;
+	height: 450px;
 	overflow: scroll;
 	font-size: 15px;
 	color: #aaa;
 	font-style: bold;
 	background-color: black;
 	font-family: 'Cabin', sans-serif;
-	padding: 5px 150px 25px 150px;
+	padding: 5px 10% 25px 10%;
+	overflow-x: hidden;
 }
 
 .btn-back {
 	font-size: 18px;
-	color: #36093B;
+	color: 36093B;
 	background-color: #A6E3E3;
 	font-family: 'Raleway', sans-serif;
     font-weight: 600;
     letter-spacing: 1.3px;
-    padding: 2px 8px;
-	clear: left;
+	float: left;
+    padding: 5px 8px;
+	margin-top: 2px;
+	margin-left: 45px;
 }
 
 a.btn-back {
@@ -279,6 +282,16 @@ h2, h3, h4 {
 		overflow: auto;
 		background-color: #fff;
 		}
+	
+}
+@media (max-width:414px){
+	.btn-back {
+		width: 100%;
+		margin-left: 0px;
+	}
+	a.btn-back {
+	text-align: center;
+	}
 }
 
 
