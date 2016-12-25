@@ -313,6 +313,9 @@ h2, h3, h4 {
 	.btn-main{
 	font-size: 30px;
 	}
+	.btn-back {
+		font-size: 30px;
+	}
 	.footer{
 		font-size: 30px;
 	}
@@ -332,12 +335,11 @@ h2, h3, h4 {
 
 
 @media (max-width:768px){
+	.block {
+		margin: 0 0px;
+	}
 	.title p{
 		font-size: 20px;
-	}
-	
-	.block {
-	margin: 0 0px;
 	}
 	.btn-back {
 		margin-left: 0;
