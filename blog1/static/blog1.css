@@ -21,7 +21,8 @@
 	font-family: 'Cabin';
 	font-size: 30px;
 	text-align: left;
-	padding-left: 70px;
+	width: 95%;
+	margin: 0 auto;
 	color: #403c6d;
 }
 
@@ -50,9 +51,7 @@
 
 .block {
 	/*background-color: #dce2e8; */
-	margin-left: 40px;
-	margin-right: 40px;
-	margin-top: 0px;
+	margin: 0 40px;
 }
 
 .video {
@@ -249,21 +248,28 @@ h2, h3, h4 {
 	font-size: 18px;
 	background-color: #141414;
 	width: 100%;
-	height: 120px;
+	height: 110px;
 	float: right;
-	padding: 20px 50px;
 	margin: 0px;
+	padding: 20px 50px;	
+}
+
+.list-un{
+	margin: 0;
+}
+
+#Alina-container{
+	position: relarive;
+	display: inline;
+	float:left;
+	width: 100px;
+	color: grey;
 }
 
 #fb {
-	margin-top: -6px;
-	margin-right: 5px;
+	margin-right: 10px;
 	width: 25px;
-}
-
-#Alina {
-	position: relative;
-	color: grey;
+	float:left;
 }
 
 #contact {
@@ -281,17 +287,67 @@ h2, h3, h4 {
 		width: 90%;
 		overflow: auto;
 		background-color: #fff;
-		}
+	}
+	.subs{
+		font-size: 30px;
+	}
+	.subs-hint{
+		font-size: 30px;
+		height: 100px;
+	}
+	.subs_motivation{
+		font-size: 30px;
+	}
+	.title {
+		width: 90%;
+	}
+	.title p{
+		font-size: 28px;
+	}
+	.title_speech a{
+		font-size: 30px;
+	}
+	#title_sp_color {
+		font-size: 30px;
+	}
+	.btn-main{
+	font-size: 30px;
+	}
+	.btn-back{
+	font-size: 30px;
+	}
+	.footer{
+		font-size: 30px;
+	}
+	#fb {
+	width: 40px;
+	}
+	.comm {
+	font-size: 24px;
+	}
+	.block {
+	margin: 0 15px;
+	}
+	.footer {
+	height: 120px;
+	}
+}
 	
 }
 
-@media (max-width:414px){
+@media (max-width:768px){
+	.title p{
+		font-size: 20px;
+	}
 	.btn-back {
 		width: 100%;
 		margin-left: 0px;
 	}
 	a.btn-back {
 	text-align: center;
+	}
+	.block {
+	margin: 0 0px;
 	}
 }
 
