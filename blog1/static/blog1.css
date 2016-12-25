@@ -216,7 +216,7 @@ a.btn-main {
 	margin-left: 45px;
 }
 
-a.btn-back {
+.btn-back a {
 	text-decoration: none;
 }
 
@@ -313,9 +313,6 @@ h2, h3, h4 {
 	.btn-main{
 	font-size: 30px;
 	}
-	.btn-back{
-	font-size: 30px;
-	}
 	.footer{
 		font-size: 30px;
 	}
@@ -332,22 +329,20 @@ h2, h3, h4 {
 	height: 120px;
 	}
 }
-	
-}
+
 
 @media (max-width:768px){
 	.title p{
 		font-size: 20px;
 	}
-	.btn-back {
-		width: 100%;
-		margin-left: 0px;
-	}
-	a.btn-back {
-	text-align: center;
-	}
+	
 	.block {
 	margin: 0 0px;
+	}
+	.btn-back {
+		margin-left: 0;
+		width: 100%;
+		text-align: center;
 	}
 }
 
